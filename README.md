@@ -1,14 +1,15 @@
 
 # Video Proctoring ML (VS Code Ready)
-<img width="1919" height="1079" alt="Screenshot 2025-11-09 112306" src="https://github.com/user-attachments/assets/295ded6f-abb1-4f85-990a-87cf4e7ccc1e" />
-<img width="1914" height="1079" alt="Screenshot 2025-11-09 112348" src="https://github.com/user-attachments/assets/37b978d7-f8da-4f92-a4c6-2ea95171aa09" />
-
-
-
 A lightweight, local proctoring demo that detects **phone**, **face**, and **suspected wrist device (smartwatch?)** from webcam/video.
 - Phone & common objects: YOLOv8n (Ultralytics)
 - Face: MediaPipe Face Detection
 - Wrist device (heuristic): MediaPipe Hands + simple edge-based heuristic around wrist landmarks
+
+<img width="1919" height="1079" alt="Screenshot 2025-11-09 112306" src="https://github.com/user-attachments/assets/295ded6f-abb1-4f85-990a-87cf4e7ccc1e" />
+<img width="1914" height="1079" alt="Screenshot 2025-11-09 112348" src="https://github.com/user-attachments/assets/37b978d7-f8da-4f92-a4c6-2ea95171aa09" />
+-----demo of csv file
+<img width="1043" height="160" alt="image" src="https://github.com/user-attachments/assets/3d2d74a9-af59-4af1-87e7-afcbf91c556a" />
+<img width="1454" height="967" alt="image" src="https://github.com/user-attachments/assets/ca8b466e-1f21-4e71-a808-195e1c9e5566" />
 
 >  **Disclaimer**: The wrist-device detection is heuristic and not a robust "smartwatch classifier". Use it as a starting point.
 
