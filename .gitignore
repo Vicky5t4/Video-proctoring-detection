@@ -1,0 +1,15 @@
+# Python/venv
+.venv/
+__pycache__/
+*.pyc
+
+# App outputs
+runs/
+samples/
+*.mp4
+*.avi
+*.mkv
+
+# OS/Editor
+.DS_Store
+.vscode/
